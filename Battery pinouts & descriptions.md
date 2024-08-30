@@ -1,5 +1,14 @@
 # G16B01W for TM2135 Battery pinouts & descriptions
 
+## Basic information
+```
+Model No.: G16B01W / 4ICP4/63/92
+Manufacturer: Sunwoda Electronic Co.,Ltd.
+Charge voltage limit: 17.4 V DC
+Rated voltage: 15.2 V DC
+Rated capacity: 3620 mAh / 55.02 Wh
+```
+
 ## Battery pinouts
 ```
 Front view of the battery-side connector.
