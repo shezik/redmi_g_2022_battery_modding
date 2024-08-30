@@ -1,4 +1,4 @@
-# G16B01W for TM2135 Battery pinouts & descriptions
+# G16B01W for TM2135 battery pinouts & descriptions
 
 ## Basic information
 ```
