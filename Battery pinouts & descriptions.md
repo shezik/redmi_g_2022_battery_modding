@@ -25,16 +25,16 @@ For the connector on the motherboard, reverse the pin order.
 
 ## Pin descriptions
 ```
- 1. RTC          3.347 V to ground, regardless of B/I
- 2. SMBD         Haven't tested
- 3. SMBC         Haven't tested
- 4. BAT_PRS#     10K Ohm to ground, used to notify motherboard of battery presence?
- 5. P+           0.002 V w/o B/I; battery voltage w/ B/I
- 6. P+           Connected to 5
- 7. P+           Connected to 5
- 8. B/I          When pulled to ground (usually 10K Ohm), activates P+ output.
-                 10K Ohm pull-down resistor is present on motherboard.
- 9. GND          Ground
-10. GND          Connected to 9
-11. GND          Connected to 9
+ 1. RTC        O  3.347 V to ground, regardless of B/I
+ 2. SMBD       ?  Haven't tested
+ 3. SMBC       ?  Haven't tested
+ 4. BAT_PRS#   O  10K Ohm to ground, used to notify motherboard of battery presence?
+ 5. P+        IO  0.002 V w/o B/I; battery voltage w/ B/I
+ 6. P+        IO  Connected to 5
+ 7. P+        IO  Connected to 5
+ 8. B/I        I  When pulled to ground (usually 10K Ohm), activates P+ output.
+                  10K Ohm pull-down resistor is present on motherboard.
+ 9. GND       IO  Ground
+10. GND       IO  Connected to 9
+11. GND       IO  Connected to 9
 ```
