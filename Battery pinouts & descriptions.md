@@ -1,0 +1,40 @@
+# TM2135 Battery pinouts & descriptions
+
+## Battery pinouts
+```
+Front view of the battery-side connector.
+For the connector on the motherboard, reverse the pin order.
+
+               ┌──┐
+┌──┬──┬──┬──┬──┼──┼──┬──┬──┬──┬──┐
+│ 1│  │  │  │  │  │  │  │  │  │11│
+└──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┘
+
+ 1. RTC          Real-time clock power source
+ 2. SMBD         SMBus Data
+ 3. SMBC         SMBus Clock
+ 4. BAT_PRS#     Battery Presence (Low-active)
+ 5. P+           Battery Positive
+ 6. P+           Battery Positive
+ 7. P+           Battery Positive
+ 8. B/I          Battery Inserted?
+ 9. GND          Ground
+10. GND          Ground
+11. GND          Ground
+```
+
+## Pin descriptions
+```
+ 1. RTC          3.347 V to ground, regardless of B/I
+ 2. SMBD         Haven't tested
+ 3. SMBC         Haven't tested
+ 4. BAT_PRS#     10K Ohm to ground, used to notify motherboard of battery presence?
+ 5. P+           0.002 V w/o B/I; battery voltage w/ B/I
+ 6. P+           Connected to 5
+ 7. P+           Connected to 5
+ 8. B/I          When pulled to ground (usually 10K Ohm), activates P+ output.
+                 10K Ohm pull-down resistor is present on motherboard.
+ 9. GND          Ground
+10. GND          Connected to 9
+11. GND          Connected to 9
+```
